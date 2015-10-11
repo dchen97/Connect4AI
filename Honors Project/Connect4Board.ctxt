@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Connect4Board()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Board\r\n
+comment1.params=x\ y
+comment1.target=int\ getValue(int,\ int)
+comment2.params=x\ y
+comment2.target=boolean\ isValid(int,\ int)
+comment3.params=
+comment3.target=boolean\ hasWon()
+comment4.params=x\ y
+comment4.target=void\ checkStreak(int,\ int)
+comment5.params=x\ y\ color
+comment5.target=void\ setValue(int,\ int,\ int)
+comment6.params=column
+comment6.target=int\ lowestRow(int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
