@@ -1,10 +1,13 @@
+// Assignment #: Arizona State University CSE205 Honors Project
+//         Name: Diana Chen
+//    StudentID: 1209034433
+//      Lecture: MWF 9:00AM - 9:50AM
+//      Section: #1
+//  Description: Connect4Board creates the board of the game and
+//              keeps track of what the players have played. The
+//              board also checks if the player's move won or not.
 import java.io.*;
-/**
- * Write a description of class Board here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Connect4Board
 {
     // instance variables - replace the example below with your own
@@ -44,6 +47,8 @@ public class Connect4Board
                 checkStreak(i,j);
                 if (counter == 4){
                     return true;
+                } else {
+                    counter = 0;
                 }
             }
         }
@@ -84,7 +89,7 @@ public class Connect4Board
             for (int j = jInit; j <= jFinal; j ++){
                 if (board[x][y] == board[i][j] && (i != x && j != y)){
                     counter ++;
-                    if (counter != 4){
+                    if (counter < 4){
                         checkStreak(i,j);
                     } else {
                         break;
