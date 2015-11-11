@@ -1,0 +1,18 @@
+<HTML>
+<HEAD>
+	<TITLE> Honors Project DKChen Applet </TITLE>
+	<!--Assignment #: ASU CSE205 Honors Project
+			Name: Diana Chen
+ 			ID: 1209034433
+			Lecture: MWF 9:00AM - 9:50AM
+			Section: #1
+			Description: HTML file to display Connect4 Applet
+			-->
+</HEAD>
+<BODY>
+
+<applet code = "Connect4Applet.class" width=700px height=700px>
+</applet>
+
+</BODY>
+</HTML>
